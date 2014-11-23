@@ -27,4 +27,6 @@ if __name__ == "__main__":
 
 		last_part = data.split("/")[-1]
 		video_code = last_part.split("/")
-		print(video_code)
+		
+		parte_chida = video_code[0].split("=")
+		print(parte_chida[1])
